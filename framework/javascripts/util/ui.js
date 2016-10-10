@@ -374,10 +374,12 @@ function displayPage( id ) {
 		$text.append('<p>'+ts+'</p>');
 		$page.append($text);
 		
-		
-		var $diagram = $('<div />');
-		createDiagram( co.paragraphs[i].diagram_data, $diagram )
-		$page.append( $diagram );
+
+		if ( co.paragraphs[i].diagram_data ) {
+			var $diagram = $('<div />');
+			createDiagram( co.paragraphs[i].diagram_data, $diagram )
+			$page.append( $diagram );
+		}
 		
 		var $fig = $('<figure />');
 		var $img = $('<img />');
