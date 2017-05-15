@@ -3,14 +3,19 @@
 		"id": "page1",
 		"markdown-remove_including_-_to_make_it_work" : "page1.txt",
 		"markdown-remove_including_-_to_make_it_work" : "brainbox.md",
-		"title": "Example for online publications with braingl-web including interactive 2D figures linked with the interactive 3D viewer ",
+		"title": "InteractiveOnlinePaper: A framework for online publications with braingl-web including interactive 2D figures linked with the interactive 3D viewer ",
 		"paragraphs" : [
 		{
 			"text" : [
-						"<br>Katja Heuer, Ralph Schurade<br><br>Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany<br><br>This is an ", 
-						"example for an online publication with interactive 3D figures. The code of the template can be found as example-pub at github.com/rschurade/braingl-web.<br>In ",
-						"addition to such an online article template, braingl-web also provides a framework to create an interactive 3D website for your data which you can easily link with your journal ",
-						"publication. The code for the template can be found as 'brainnetworks' within braingl-web.<br>This image is a collage as to what the online publication will look like once the interlinked figure and viewer will be implemented.<br>",
+						"<br>Katja Heuer, Ralph Schurade, Angela D. Friederici & Alfred Anwander<br><br>Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany<br><br>",
+"This is work in progress. We recently included the awesome d3 and three.js libraries and are currently restructuring the code to provide you with a very user-friendly web app and a comprehensive template. <br><br>",
+
+"This is a template for an online publication with interactive 3D figures. The code of the template can be found as example-pub at <a target='_blank' href='https://github.com/katjaq/braingl-web'>github.com/katjaq/braingl-web</a>.<br>", 
+"In addition to such an online article template, braingl-web also provides a framework to create an <a target='_blank' href='http://openscience.cbs.mpg.de/brainnetworks/'>interactive 3D website</a> for your data which you can easily link with your journal publication. ",
+"The code for the template can be found as <a target='_blank' href='https://github.com/katjaq/braingl-web'>'brainnetworks'</a> within braingl-web. ",
+"<br><br>Our following example shows connectivity data generated with a Jupyter notebook from Nilearn and you can easily reproduce the results <a target='_blank' href='http://nilearn.github.io/auto_examples/03_connectivity/plot_probabilistic_atlas_extraction.html#sphx-glr-auto-examples-03-connectivity-plot-probabilistic-atlas-extraction-py'>here</a> ",
+"<br>Our template currently provides 2 connectivity diagrams: You can chose between the circular representation and the matrix representation. The matrix gives you the option to sort the data, for instance according to the networks. The order in which the matrix is given in our example has been manually sorted by Gael, the lead developer of Nilearn, in order to create a good example. Thanks to Gael again :D  ",
+"And here I will have to continue work tomorrow... :D<br>",
 						"<a class='a2page' href='page2'>link to page 2</a><br>",
 						"<br><a class='a2page' href='page1' para='para2'>link to paragraph 2</a><br />"
 					 ],
